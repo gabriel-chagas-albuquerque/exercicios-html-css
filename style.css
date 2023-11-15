@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    min-height:100vh;
+}
+
+.cabecalho{
+    margin:20px;
+}
+
+.container{
+    max-width: 500px;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.container .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.container .menu .menu-items{
+    padding: 5px 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.container .menu .menu-items:hover{
+    background-color: #c7c5c5;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
+}

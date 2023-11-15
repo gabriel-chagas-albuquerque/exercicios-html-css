@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h1{
+    margin: 10px auto 30px;
+}
+
+a{
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover{
+    
+    opacity: 0.7;
+}

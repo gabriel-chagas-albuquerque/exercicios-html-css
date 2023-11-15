@@ -1,0 +1,28 @@
+body{
+   padding:20px;
+   text-align: center;
+   background-color: aqua;
+}
+
+h1{
+    margin: 0px auto 20px;
+}
+
+section{
+    max-width: 600px;
+    margin: 0 auto;
+    padding:20px;
+}
+
+section .paragrafo{
+    margin: 40px 0;
+    padding: 20px;
+}
+
+section .padrao{
+    background-color: var(--padrao);
+}
+
+section .destacado{
+    background-color: var(--destacado);
+}
